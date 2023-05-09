@@ -1,0 +1,180 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+canvas {
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  height: 540px;
+  width: 1300px;
+  background-color: white;
+  border: solid black 1px;
+}
+.board {
+  position: relative;
+  height: 600px;
+  width: 1300px;
+  background-color: white;
+  border: solid black 5px;
+}
+
+.upperbox {
+  position: absolute;
+  height: 60px;
+  width: 1300px;
+  text-align: center;
+  display: flex;
+  background-color: #d8ebfd;
+  justify-content: space-between;
+}
+h1 {
+  position: absolute;
+  text-align: center;
+  right: 600px;
+}
+h2 {
+  position: absolute;
+  right: 200px;
+}
+.green {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 150px;
+  border-radius: 1.5em;
+  top: 15px;
+  background-color: green;
+  border-color: green;
+  border-width: 0em;
+}
+.black1 {
+  position: absolute;
+  right: 100px;
+  height: 40px;
+  width: 40px;
+  border-radius: 1.5em;
+  top: 15px;
+  background-color: black;
+  border-width: 0em;
+}
+.white1 {
+  position: absolute;
+  right: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 1.5em;
+  top: 15px;
+  background-color: white;
+  border-color: white;
+  border-width: 0em;
+}
+.sidebox {
+  position: absolute;
+  height: 130px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  top: 40px;
+  justify-content: space-between;
+  border-radius: 1.2em;
+  background-color: whitesmoke;
+  padding: 15px;
+  margin-left: 20px;
+}
+.red {
+  height: 20px;
+  width: 20px;
+  border-radius: 1em;
+  background-color: red;
+  border-width: 0em;
+}
+.blue {
+  height: 20px;
+  width: 20px;
+  border-radius: 1em;
+  background-color: blue;
+  border-color: blue;
+  border-width: 0em;
+}
+.black {
+  height: 20px;
+  width: 20px;
+  border-radius: 1em;
+  background-color: black;
+  border-color: black;
+  border-width: 0em;
+}
+.white {
+  height: 20px;
+  width: 20px;
+  border-radius: 1em;
+  background-color: white;
+  border-width: 0.05em;
+}
+.lowerbox {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  position: absolute;
+  top: 500px;
+  background-color: whitesmoke;
+  left: 400px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 10px;
+  border-radius: 1em;
+  padding-bottom: 10px;
+}
+.pencil {
+  height: 50px;
+
+  width: 50px;
+  background-image: url('./pencil.png');
+  background-size: 50px 50px;
+  border-radius: 1em;
+  border-width: 0em;
+}
+.eraser {
+  height: 50px;
+  width: 50px;
+  background-image: url('./eraser-icon-3.png');
+  background-size: 50px 50px;
+  border-radius: 1em;
+  border-width: 0em;
+}
+.trash {
+  height: 50px;
+  width: 50px;
+  background-image: url('./trash-bin-symbol_318-10194.avif');
+  background-size: 50px 50px;
+  border-radius: 1em;
+  border-width: 0em;
+}
+.pencil:hover {
+  height: 60px;
+
+  width: 60px;
+  background-image: url('./pencil.png');
+  background-size: 60px 60px;
+  border-radius: 1.5em;
+  border-width: 0em;
+}
+.eraser:hover {
+  height: 60px;
+  width: 60px;
+  background-image: url('./eraser-icon-3.png');
+  background-size: 60px 60px;
+  border-radius: 1.5em;
+  border-width: 0em;
+}
+.trash:hover {
+  height: 60px;
+  width: 60px;
+  background-image: url('./trash-bin-symbol_318-10194.avif');
+  background-size: 60px 60px;
+  border-radius: 1.5em;
+  border-width: 0em;
+}
